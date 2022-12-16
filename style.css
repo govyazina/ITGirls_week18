@@ -1,0 +1,13 @@
+.notes div {
+    padding: 1rem 1rem;
+    border: rgba(147, 112, 219, 0.42) 1px solid;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 70vw;
+    margin: 0 auto;
+}
