@@ -11,3 +11,7 @@ body {
     width: 70vw;
     margin: 0 auto;
 }
+
+.error-active {
+    border: #a10505 solid 2px;
+}
