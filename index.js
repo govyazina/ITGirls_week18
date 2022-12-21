@@ -23,6 +23,6 @@ function showError () {
     input.classList.add('error-active')
 }
 function generateNote (){
-    string = localStorage.getItem('allNotes');
+    string = localStorage.getItem('allNotes') || '';
     notes.innerHTML = string;
 }
